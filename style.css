@@ -1,0 +1,312 @@
+/* Semantic HTML5 Layout */
+header {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+main {
+  margin-bottom: 2em;
+}
+
+footer {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+/* Accessibility improvements */
+[aria-hidden="true"] {
+  pointer-events: none;
+}
+
+/* Focus styles for better accessibility */
+button:focus,
+input:focus,
+a:focus {
+  outline: 2px solid #2185d0;
+  outline-offset: 2px;
+}
+
+/* Skip link for screen readers */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+.ui.header {
+  margin-bottom: 2em;
+}
+
+.ui.segment {
+  margin-bottom: 1em;
+}
+
+.ui.cards {
+  margin-top: 1em;
+}
+
+.ui.card {
+  margin: 0.5em;
+}
+
+.ui.table {
+  margin-top: 1em;
+}
+
+.ui.message {
+  margin-top: 1em;
+}
+
+.github.icon {
+  color: #333;
+}
+
+.ui.label {
+  margin-right: 0.5em;
+}
+
+.ui.mini.button {
+  padding: 0.5em 1em;
+}
+
+/* Custom styles for better appearance */
+.ui.styled.accordion .title {
+  background-color: #f8f9fa;
+  border: 1px solid #e1e8ed;
+}
+
+.ui.styled.accordion .content {
+  background-color: white;
+  border: 1px solid #e1e8ed;
+  border-top: none;
+}
+
+/* Styles for repositories without description/topics */
+.text-muted {
+  color: #6c757d;
+  font-style: italic;
+}
+
+.ui.mini.label {
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.ui.mini.labels .ui.mini.label {
+  margin-right: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+/* Repository card styles */
+.ui.card .description {
+  margin: 0.5em 0;
+  line-height: 1.4;
+}
+
+.ui.card .extra.content {
+  padding-top: 0.5em;
+}
+
+/* Table styles for better readability */
+.ui.table td {
+  vertical-align: top;
+}
+
+.ui.table td small {
+  display: block;
+  margin-top: 0.25em;
+}
+
+/* Modal styles */
+.ui.modal .content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.ui.labels .ui.label {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Semantic improvements for sub headers */
+.sub.header {
+  font-size: 0.875em;
+  color: #666;
+  margin-top: 0.5em;
+  font-weight: normal;
+}
+
+/* Message improvements */
+.ui.message h3.header {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.ui.message[role="alert"] {
+  border-left: 4px solid;
+}
+
+.ui.success.message[role="alert"] {
+  border-left-color: #21ba45;
+}
+
+.ui.negative.message[role="alert"] {
+  border-left-color: #db2828;
+}
+
+.ui.info.message[role="alert"] {
+  border-left-color: #2185d0;
+}
+
+/* Enhanced styling for hashtags/topics */
+.hashtag-label {
+  background-color: #e1f5fe !important;
+  color: #0277bd !important;
+  border: 1px solid #b3e5fc !important;
+  font-weight: 500 !important;
+}
+
+.hashtag-label:hover {
+  background-color: #b3e5fc !important;
+  color: #01579b !important;
+}
+
+.more-tags {
+  background-color: #f3e5f5 !important;
+  color: #7b1fa2 !important;
+  border: 1px solid #e1bee7 !important;
+}
+
+.no-tags {
+  background-color: #fafafa !important;
+  color: #757575 !important;
+  border: 1px solid #e0e0e0 !important;
+  font-style: italic;
+}
+
+/* Enhanced styling for language labels */
+.language-label {
+  background-color: #e8f5e8 !important;
+  color: #2e7d32 !important;
+  border: 1px solid #c8e6c9 !important;
+  font-weight: 600 !important;
+}
+
+.language-label:hover {
+  background-color: #c8e6c9 !important;
+  color: #1b5e20 !important;
+}
+
+.no-language {
+  background-color: #fff3e0 !important;
+  color: #ef6c00 !important;
+  border: 1px solid #ffcc02 !important;
+  font-style: italic;
+}
+
+/* Enhanced styling for license labels */
+.license-label {
+  background-color: #f3e5f5 !important;
+  color: #7b1fa2 !important;
+  border: 1px solid #e1bee7 !important;
+  font-weight: 600 !important;
+}
+
+.license-label:hover {
+  background-color: #e1bee7 !important;
+  color: #4a148c !important;
+}
+
+.no-license {
+  background-color: #ffebee !important;
+  color: #c62828 !important;
+  border: 1px solid #ffcdd2 !important;
+  font-style: italic;
+}
+
+/* Progress bar styling */
+.ui.progress .bar {
+  background-color: #4caf50;
+}
+
+.ui.progress .bar .progress {
+  background-color: #2e7d32;
+}
+
+/* Improvement score styling */
+.ui.progress[data-percent="0"] .bar {
+  background-color: #f44336;
+}
+
+.ui.progress[data-percent="0"] .bar .progress {
+  background-color: #d32f2f;
+}
+
+.ui.progress[data-percent^="1"] .bar,
+.ui.progress[data-percent^="2"] .bar {
+  background-color: #ff9800;
+}
+
+.ui.progress[data-percent^="1"] .bar .progress,
+.ui.progress[data-percent^="2"] .bar .progress {
+  background-color: #f57c00;
+}
+
+.ui.progress[data-percent^="3"] .bar,
+.ui.progress[data-percent^="4"] .bar,
+.ui.progress[data-percent^="5"] .bar,
+.ui.progress[data-percent^="6"] .bar {
+  background-color: #ffeb3b;
+}
+
+.ui.progress[data-percent^="3"] .bar .progress,
+.ui.progress[data-percent^="4"] .bar .progress,
+.ui.progress[data-percent^="5"] .bar .progress,
+.ui.progress[data-percent^="6"] .bar .progress {
+  background-color: #fbc02d;
+}
+
+.ui.progress[data-percent^="7"] .bar,
+.ui.progress[data-percent^="8"] .bar,
+.ui.progress[data-percent^="9"] .bar {
+  background-color: #4caf50;
+}
+
+.ui.progress[data-percent^="7"] .bar .progress,
+.ui.progress[data-percent^="8"] .bar .progress,
+.ui.progress[data-percent^="9"] .bar .progress {
+  background-color: #2e7d32;
+}
+
+/* Copy JSON button styling */
+#copy-json-btn {
+  margin-top: 0.5em;
+}
+
+.ui.segment .ui.grid {
+  margin: 0;
+}
+
+.ui.segment .ui.grid .column {
+  padding: 0.5em;
+}
+
+/* Export section styling */
+.ui.segment h4.ui.header {
+  margin-bottom: 0.5em;
+}
+
+.ui.segment p {
+  margin-bottom: 0;
+  color: #666;
+  font-size: 0.9em;
+}

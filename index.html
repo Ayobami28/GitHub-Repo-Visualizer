@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GitHub Repository Visualizer - View and manage your GitHub repositories with an intuitive interface">
+    <title>GitHub Repo Visualizer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.3/dist/semantic.min.js"></script>
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="ui container">
+      <h1 class="ui header">
+        <i class="github icon" aria-hidden="true"></i>
+        <div class="content">
+          My GitHub Repositories
+          <p class="sub header">Visualize your repositories and forks</p>
+        </div>
+      </h1>
+    </header>
+
+    <main class="ui container" id="main-content">
+      <section class="ui segment" aria-labelledby="token-section">
+        <h2 id="token-section" class="ui header">
+          <i class="key icon" aria-hidden="true"></i>
+          <div class="content">Authentication</div>
+        </h2>
+        <div class="ui form">
+          <div class="field">
+            <label for="github-token">GitHub Personal Access Token</label>
+            <div class="ui action input">
+              <input type="password" id="github-token" placeholder="Enter your GitHub token" aria-describedby="token-help">
+              <button class="ui primary button" onclick="loadRepositories()" aria-label="Load repositories">
+                <i class="download icon" aria-hidden="true"></i>
+                Load Repositories
+              </button>
+            </div>
+            <div id="token-help" class="ui message">
+              <i class="info circle icon" aria-hidden="true"></i>
+              You need a GitHub Personal Access Token to access your repositories. Generate one at <a href="https://github.com/settings/tokens" target="_blank">GitHub Settings</a>.
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="loading" class="ui loading segment" style="display: none;" aria-live="polite">
+        <div class="ui active centered inline loader"></div>
+        <p>Loading repositories...</p>
+      </section>
+      
+      <section id="repo-list" aria-live="polite" aria-label="Repository list"></section>
+    </main>
+
+    <footer class="ui container">
+      <div class="ui divider"></div>
+      <div class="ui center aligned basic segment">
+        <p>
+          <i class="github icon" aria-hidden="true"></i>
+          GitHub Repository Visualizer - Built with Fomantic UI
+        </p>
+        <p>
+          <small>© 2024 - Visualize your GitHub repositories with style</small>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
